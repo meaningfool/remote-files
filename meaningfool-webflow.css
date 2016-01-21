@@ -31,6 +31,17 @@
   margin-bottom: 20px;
 }
 
+.article-container h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.9rem;
+}
+
+.article-container p+h3 {
+  margin-top: 40px;
+}
+
 .article-container blockquote {
   font-weight: 300;
   font-size: 1.6rem;
@@ -38,4 +49,9 @@
   border-color: #349b6d;
   padding-left: 30px;
   margin-bottom:20px;
+}
+
+.article-container image {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
