@@ -42,7 +42,7 @@
   line-height: 1.9rem;
 }
 
-.article-container p+h3 {
+.article-container p+h3, .article-container ul+h3, .article-container ol+h3 {
   margin-top: 40px;
 }
 
