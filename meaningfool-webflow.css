@@ -32,8 +32,12 @@
   margin-top: 30px;
 }
 
-.article-container li {
+.article-container ul li {
   margin-top: 10px;
+}
+
+.article-container ol li {
+  margin-top: 30px;
 }
 
 .article-container li:first-child {
