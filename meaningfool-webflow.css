@@ -1,5 +1,14 @@
+.article-container {
+  font-size: 17px;
+  line-height: 1.7rem;
+}
+
 .article-container p {
-  line-height: 1.75rem;
+  margin-bottom: 40px;
+}
+
+.article-container ul, .article-container ol {
+  padding-left: 80px;
 }
 
 .article-content-container a {
@@ -12,11 +21,11 @@
 }
 
 .article-container p+ul {
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .article-container ul+p {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .article-container li {
