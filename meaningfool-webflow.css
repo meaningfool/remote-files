@@ -1,3 +1,41 @@
-.article-content-container p {
-  color: red;
+.article-content-container a {
+  color: #349b6d;
+  text-decoration: none;
+}
+
+.article-content-container a:hover {
+  text-decoration: underline;
+}
+
+.article-container p+ul {
+  margin-top: -10px;
+}
+
+.article-container ul+p {
+  margin-top: 20px;
+}
+
+.article-container li {
+  margin-top: 10px;
+}
+
+.article-container li:first-child {
+  margin-top: 0px;
+}
+
+.article-container h2 {
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.article-container blockquote {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  border-color: #349b6d;
+  padding-left: 30px;
+  margin-bottom:20px;
 }
