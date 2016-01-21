@@ -1,3 +1,7 @@
+.article-container p {
+  line-height: 1.75rem;
+}
+
 .article-content-container a {
   color: #349b6d;
   text-decoration: none;
@@ -51,7 +55,7 @@
   margin-bottom:20px;
 }
 
-.article-container image {
+.article-container img {
   margin-top: 10px;
   margin-bottom: 10px;
 }
