@@ -4,11 +4,15 @@
 }
 
 .article-container p {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
-.article-container ul, .article-container ol {
+.article-container ul {
   padding-left: 80px;
+}
+
+.article-container ol {
+  padding-left: 25px;
 }
 
 .article-content-container a {
@@ -25,7 +29,7 @@
 }
 
 .article-container ul+p {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .article-container li {
